@@ -1,0 +1,14 @@
+*** Settings ***
+Library           SeleniumLibrary
+
+*** Keywords ***
+打开浏览器
+    Open Browser    https://www.baidu.com    chrome
+
+输入用户名
+    [Arguments]    ${username}
+    Input Text
+
+输入密码
+
+点击登录
